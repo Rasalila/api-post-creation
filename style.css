@@ -1,0 +1,48 @@
+
+.main {
+  background-color: rgb(251, 255, 240);
+  padding: 20px;
+  border: 5px inset lightblue;
+}
+
+.main__addPost,
+.addPostList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.addPostList,
+#addBodyInt,
+#addTitleInt {
+  margin: 10px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgb(161, 226, 211);
+  padding: 5px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 1em;
+  width: 70%;
+  padding: 5px;
+  background-color: white
+}
+
+.addPostList {
+  border-radius: 20px;
+  border: 5px inset lightblue;
+  background-color: white
+}
